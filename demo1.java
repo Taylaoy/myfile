@@ -1,4 +1,4 @@
-package cn.pz.sort;
+﻿package cn.pz.sort;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
@@ -11,7 +11,7 @@ public class demo1 {
             que.offer(new Request(){
                 @Override
                 public void deposit() {
-                    System.out.println("第"+num+"个人"+(Math.random())*10000);
+                    System.out.println("第"+num+"人"+(Math.random())*10000);
                 }
             });
         }
